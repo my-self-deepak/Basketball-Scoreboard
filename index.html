@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://googleapis.com" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/score-board" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="home">
+            <h3>Home</h3>
+            <h2 id="home-el">0</h2>
+            <button onclick="homeplus1()">+1</button>
+            <button onclick="homeplus2()">+2</button>
+            <button onclick="homeplus3()">+3</button>
+
+        </div>
+        <div class="guest">
+            <h3>Guest</h3>
+            <h2 id="guest-el">0</h2>
+            <button onclick="guestplus1()">+1</button>
+            <button onclick="guestplus2()">+2</button>
+            <button onclick="guestplus3()">+3</button>
+        </div>
+        <script src="script.js"></script>
+    </div>
+    <div>
+        <button id="reset-el" class="reset" onclick="reset()">Reset match</button>
+    </div>
+    
+</body>
+</html>
